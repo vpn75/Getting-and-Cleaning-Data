@@ -5,6 +5,7 @@ The raw data for this project is accelerometer data collected from the Samsung G
 
 Data file: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 CodeBook: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 This data included both the raw sampled data (folder ../Inertial Signals) and features apparently based on the raw data. For the purpose of this project, I am only looking at the features, not the raw data.
 
 There are 3 types of files:
@@ -12,6 +13,7 @@ There are 3 types of files:
 x: rows of feature measurements
 y: the activity labels corresponding to each row of X. Encoded as numbers.
 subject: the subjects on which each row of X was measured. Encoded as numbers.
+
 In addition, to determine which features are required, we look at the list of features:
 
 features.txt
